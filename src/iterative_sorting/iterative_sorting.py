@@ -15,6 +15,7 @@ def selection_sort( arr ):
         smallest_index = cur_index
         # TO-DO: find next smallest element
         # (hint, can do in 3 loc) 
+        # loc is line of code
         for j in range(cur_index + 1, len(arr)):
             if arr[j] < arr[smallest_index]:
                  smallest_index = j          
